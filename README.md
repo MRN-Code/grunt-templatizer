@@ -1,3 +1,7 @@
+# MRN-Code Modified grunt-templatizer
+- exclude the jade runtime (it uses fs and makes webpack grumpy)
+- use webpack loader anyway
+
 # grunt-templatizer
 
 > [`templatizer`](https://github.com/HenrikJoreteg/templatizer) is a lovely little utility by [Henrik Jorteg](https://github.com/henrikjoreteg) that takes a template directory structure and produces a module containing your precompiled Jade templates.

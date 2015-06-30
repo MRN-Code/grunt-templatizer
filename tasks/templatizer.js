@@ -40,11 +40,7 @@ module.exports = function(grunt) {
       , outputFile = this.files[0].dest
       , output = [
           '(function () {',
-          'var root = this, exports = {};',
-          '',
-          '// The jade runtime:',
-          'var ' + jadeRuntime,
-          ''
+          'var root = this, exports = {};'
         ].join('\n');
 
     if(this.filesSrc.length === 0) {
